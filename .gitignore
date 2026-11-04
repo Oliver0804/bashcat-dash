@@ -1,0 +1,15 @@
+# ESP-IDF
+build/
+managed_components/
+sdkconfig
+sdkconfig.old
+# vendored copies are fetched from the ESP Component Registry instead
+components/
+# simulator outputs
+sim/build/
+sim/out/
+sim/third_party/
+# OS / editor
+.DS_Store
+.vscode/
+.cache/
